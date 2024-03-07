@@ -1,0 +1,108 @@
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+  width: 100%;
+  box-shadow: 0 0 10px #ccc;
+  input {
+    width: 80%;
+    outline: none;
+    height: 40px;
+    padding: 10px;
+    border: 0;
+    border: 1px solid #ccc;
+    transition: all 0.3s;
+    font-size: medium;
+  }
+  input:hover {
+    box-shadow: 0 0 10px #32f48d;
+  }
+  select {
+    background-color: rgb(12, 138, 235);
+    width: 10%;
+    height: 40px;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    gap: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  button {
+    background-color: #30b66e;
+    width: 10%;
+    border: 0;
+    outline: 0;
+    height: 40px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 22px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    transition: all 0.3s;
+  }
+  button:hover {
+    background-color: #116739;
+  }
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  thead th {
+    padding: 8px;
+    font-size: 18px;
+    background-color: rgb(12, 138, 235);
+    color: #fff;
+    font-family: sans-serif;
+  }
+  tbody {
+    tr {
+      transition: all 0.3s;
+      background-color: #fff;
+    }
+    tr:hover {
+      background-color: #cccccc77;
+    }
+
+    td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+      font-size: 18px;
+      font-family: sans-serif;
+      font-weight: 500;
+    }
+    .btn1 {
+      cursor: pointer;
+      border: 0;
+      color: #fff;
+      border-radius: 6px;
+      padding: 8px 10px;
+      background-color: rgb(12, 138, 235);
+      margin-right: 6px;
+      transition: all 0.3s;
+      font-size: 16px;
+    }
+    .btn1:hover {
+      background-color: rgb(73, 112, 21) !important;
+    }
+    .btn2 {
+      cursor: pointer;
+      border: 0;
+      color: #fff;
+      border-radius: 6px;
+      padding: 8px 10px;
+      background-color: red !important;
+      transition: all 0.3s;
+      font-size: 16px;
+    }
+    .btn2:hover {
+      background-color: brown !important;
+    }
+  }
+}
